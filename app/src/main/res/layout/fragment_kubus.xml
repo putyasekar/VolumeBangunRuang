@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_16sdp"
+    android:orientation="vertical"
+    tools:context=".KubusFragment">
+
+    <TextView
+        android:id="@+id/kubus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:gravity="center"
+        android:text="Kubus"
+        android:textColor="#000"
+        android:textSize="@dimen/_19sdp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/luas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:hint="Input Your First Number"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:hint="Input Your Second Number"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:hint="Input Your Third Number"
+        android:inputType="numberDecimal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/calculate3"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:text="hitung"
+            android:textColor="#000"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/result_kubus"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:text="Result" />
+    </LinearLayout>
+</LinearLayout>
